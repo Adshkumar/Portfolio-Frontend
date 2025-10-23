@@ -7,15 +7,18 @@ import Home from './pages/home';
 import Navigation from './components/Navigation';
 import LowerHero from  './components/lowerhero';
 import About from './about/about';
-// import LowerAbout from './about/lowerabout';
 import WorkExperiences from './components/experiences/WorkExperiences';
 import Contact from './components/contact/contact';
 import Projects from './components/project/projects'
 import Education from "./education/education";
+import CustomCursor from './components/CustomCursor';
+
 const App = () => {
     return (
         <UserDataProvider>
             <BrowserRouter>
+                {/* CustomCursor should be outside Routes but inside BrowserRouter */}
+                <CustomCursor />
                 <Navigation />
                 <Routes>
                     <Route path="/" element={<Navigate to="/home" />} /> 
@@ -26,8 +29,7 @@ const App = () => {
                     <Route path="/experiences" element={<WorkExperiences />} />
                     <Route path="/education" element={<Education />} />
                     <Route path="/Contact" element={<Contact />} />
-                     <Route path='/projects' element={<Projects />} />
-                    
+                    <Route path='/projects' element={<Projects />} />
                     <Route path="*" element={<Navigate to="/home" />} /> 
                 </Routes>
             </BrowserRouter>
