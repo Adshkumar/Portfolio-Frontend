@@ -27,13 +27,7 @@ const Navigation = () => {
     { href: "/education", label: "Education", color: "text-[#748393]" },
     { href: "/projects", label: "Projects", color: "text-[#748393]" },
     { href: "/contact", label: "Contact", color: "text-[#748393]" },
-    { 
-      href: "/resume.pdf",  
-      label: "Get My Resume", 
-      color: "text-[#5cbcbc]",
-      
-      download: "Adarsh-Kumar-Resume.pdf"
-    }
+    { href: "/resume", label: "Get My Resume", color: "text-[#5cbcbc]", download: true }
   ];
 
   return (
@@ -73,10 +67,6 @@ const Navigation = () => {
             style={{
               transitionDelay: isVisible ? `${index * 100 + 300}ms` : '0ms'
             }}
-            {...(link.download && { 
-              target: "_blank", 
-              rel: "noopener noreferrer" 
-            })}
           >
             {link.label}
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#5cbcbc] transition-all duration-300 group-hover:w-full"></span>
@@ -125,10 +115,6 @@ const Navigation = () => {
                 transitionDelay: isMenuOpen ? `${index * 100}ms` : '0ms'
               }}
               onClick={() => setIsMenuOpen(false)}
-              {...(link.download && { 
-                target: "_blank", 
-                rel: "noopener noreferrer" 
-              })}
             >
               {link.label}
             </a>
