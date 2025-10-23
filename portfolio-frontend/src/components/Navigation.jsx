@@ -28,7 +28,7 @@ const Navigation = () => {
     { href: "/projects", label: "Projects", color: "text-[#748393]" },
     { href: "/contact", label: "Contact", color: "text-[#748393]" },
     { 
-      href: "/resume.pdf",  
+      href: "/Adarsh kumar Resume.pdf",  
       label: "Get My Resume", 
       color: "text-[#5cbcbc]",
       
