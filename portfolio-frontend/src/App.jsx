@@ -11,14 +11,12 @@ import WorkExperiences from './components/experiences/WorkExperiences';
 import Contact from './components/contact/contact';
 import Projects from './components/project/projects'
 import Education from "./education/education";
-import CustomCursor from './components/CustomCursor';
 
 const App = () => {
     return (
         <UserDataProvider>
             <BrowserRouter>
                 {/* CustomCursor should be outside Routes but inside BrowserRouter */}
-                <CustomCursor />
                 <Navigation />
                 <Routes>
                     <Route path="/" element={<Navigate to="/home" />} /> 
