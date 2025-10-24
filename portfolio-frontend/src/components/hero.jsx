@@ -101,7 +101,7 @@ const Hero = () => {
       >
         <a
           href="/more"
-          className="mt-6 text-teal-400 transition-all duration-300 font-medium text-lg no-underline flex flex-col items-center gap-2"
+          className="mt-10 text-teal-400 transition-all duration-300 font-medium text-lg no-underline flex flex-col items-center gap-2"
         >
           <span className="animate-bounce text-[#626d78] font-medium">
             Explore More
