@@ -65,7 +65,7 @@ const About = () => {
               <p>
                 When I'm not coding, you'll find me exploring new technologies,
                 contributing to open-source projects, or hiking through the
-                stunning landscapes of Nepal. I believe that the best software
+                stunning landscapes of New Delhi. I believe that the best software
                 is built by developers who understand both the technical and
                 human sides of technology.
               </p>
@@ -85,7 +85,7 @@ const About = () => {
                 <p className="text-gray-700">
                   I am currently studying:{" "}
                   <span className="font-semibold">
-                    Data Structures & Algorithms with JavaScript
+                    Data Structures & Algorithms with C++
                   </span>
                 </p>
                 <p className="text-gray-700 py-1">
