@@ -82,22 +82,22 @@ const ExperienceTimeline = () => {
       ],
       ongoing: false,
     },
-      {
-      title: "Weather App Project",
-      company: "Personal Project",
-      period: "January 2024 - February 2024",
-      location: "Remote",
-      description:
-        "Developed a responsive weather application using HTML, CSS, and JavaScript with real-time weather data integration.",
-      achievements: [
-        "Integrated a live weather API to fetch real-time weather data",
-        "Dynamically updated the UI based on API responses",
-        "Ensured responsive design for optimal experience across all device sizes",
-        "Deployed the application via GitHub Pages",
-      ],
-      skills: ["HTML", "CSS", "JavaScript", "API Integration", "GitHub Pages"],
-      ongoing: false,
-    },
+    //   {
+    //   title: "Weather App Project",
+    //   company: "Personal Project",
+    //   period: "January 2024 - February 2024",
+    //   location: "Remote",
+    //   description:
+    //     "Developed a responsive weather application using HTML, CSS, and JavaScript with real-time weather data integration.",
+    //   achievements: [
+    //     "Integrated a live weather API to fetch real-time weather data",
+    //     "Dynamically updated the UI based on API responses",
+    //     "Ensured responsive design for optimal experience across all device sizes",
+    //     "Deployed the application via GitHub Pages",
+    //   ],
+    //   skills: ["HTML", "CSS", "JavaScript", "API Integration", "GitHub Pages"],
+    //   ongoing: false,
+    // },
   ];
 
   const [isVisible, setIsVisible] = useState(false);
