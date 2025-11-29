@@ -43,7 +43,7 @@ const Navigation = () => {
 
     const link = document.createElement("a");
     link.href = url;
-    link.download = "Adarsh-Kumar-Resume.pdf";
+    link.download = "Adarsh kumar_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
