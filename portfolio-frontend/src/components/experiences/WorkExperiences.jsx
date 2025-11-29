@@ -19,19 +19,22 @@ const ExperienceTimeline = () => {
       ongoing: false,
     },
     {
-      title: "Weather App Project",
-      company: "Personal Project",
-      period: "January 2024 - February 2024",
-      location: "Remote",
+      title: "CHAT APPLICATION",
+      company: "Self Project",
+      period: "October 2025 - November 2025",
+      location: "India",
       description:
-        "Developed a responsive weather application using HTML, CSS, and JavaScript with real-time weather data integration.",
+        "Built a full-stack real-time chat application featuring secure authentication, instant messaging, profile management, and responsive UI. Implemented a scalable backend with Node.js & MongoDB.",
       achievements: [
-        "Integrated a live weather API to fetch real-time weather data",
-        "Dynamically updated the UI based on API responses",
-        "Ensured responsive design for optimal experience across all device sizes",
-        "Deployed the application via GitHub Pages",
+        "Developed a structured MVC-based backend with clear separation of controllers, routes, models, and middleware",
+        "Implemented JWT authentication for secure login/signup and protected routes",
+        "Used Mongoose schemas to manage users, chats, and messages with optimized queries",
+        "Enabled real-time communication using Socket.IO for instant message delivery, typing indicators, and online status updates",
+        "Designed clean page structures for Login, Signup, Home, Profile, and Settings",
+        "Used Tailwind CSS for fast and consistent styling with custom config (tailwind.config.js)",
+
       ],
-      skills: ["HTML", "CSS", "JavaScript", "API Integration", "GitHub Pages"],
+      skills: ["Node.js", "Express.js", "MongoDB", "React.js", "Socket.IO" ,"JWT Authentication", "Tailwind CSS", "REST API"],
       ongoing: false,
     },
     {
@@ -77,6 +80,22 @@ const ExperienceTimeline = () => {
         "REST API",
         "Authentication",
       ],
+      ongoing: false,
+    },
+      {
+      title: "Weather App Project",
+      company: "Personal Project",
+      period: "January 2024 - February 2024",
+      location: "Remote",
+      description:
+        "Developed a responsive weather application using HTML, CSS, and JavaScript with real-time weather data integration.",
+      achievements: [
+        "Integrated a live weather API to fetch real-time weather data",
+        "Dynamically updated the UI based on API responses",
+        "Ensured responsive design for optimal experience across all device sizes",
+        "Deployed the application via GitHub Pages",
+      ],
+      skills: ["HTML", "CSS", "JavaScript", "API Integration", "GitHub Pages"],
       ongoing: false,
     },
   ];
