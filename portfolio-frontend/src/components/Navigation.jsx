@@ -37,7 +37,7 @@ const Navigation = () => {
 
   const handleResumeClick = (e) => {
     e.preventDefault();
-    const url = "/resume.pdf/Adarsh-kumar-Resume.pdf";
+    const url = "/resume.pdf/Adarsh kumar_Resume.pdf";
 
     window.open(url, "_blank");
 
