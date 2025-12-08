@@ -67,7 +67,7 @@ function Projects(props) {
       category: "Full Stack",
       img: "https://i.ytimg.com/vi/gbocZlm71nE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBNqrLoBSDRhBz-9bg7tXHH1f0MPw",
       codeLink: "https://github.com/Adshkumar/ChatApplication",
-      liveLink: "https://chat-application-8ok915xac-adshkumars-projects.vercel.app/login",
+      liveLink: "https://chat-application-six-fawn.vercel.app/login",
     },
     {
       title: "Weather App",
